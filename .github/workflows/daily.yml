@@ -1,0 +1,17 @@
+
+name: Daily Workflow
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show message
+        run: echo "Codzienny workflow działa!"
+
+      - name: Show date
+        run: date
