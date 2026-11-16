@@ -1,0 +1,13 @@
+
+name: Two Events
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  events:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show event
+        run: echo "${{ github.event_name }}"
