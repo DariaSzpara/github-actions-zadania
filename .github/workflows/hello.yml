@@ -1,3 +1,4 @@
+
 name: Hello
 
 on: push
@@ -8,3 +9,9 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Cześć!"
+
+      - name: Show date
+        run: date
+
+      - name: Show GitHub user
+        run: echo "${{ github.actor }}"
