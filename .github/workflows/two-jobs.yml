@@ -1,0 +1,16 @@
+name: Two jobs
+
+on: push
+
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First job
+        run: echo "Pierwszy"
+
+  second:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Second job
+        run: echo "Drugi"
