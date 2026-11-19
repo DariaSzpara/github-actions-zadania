@@ -1,0 +1,13 @@
+name: Show files
+
+on: push
+
+jobs:
+  files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get repository code
+        uses: actions/checkout@v4
+
+      - name: List files
+        run: ls -la
