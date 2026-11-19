@@ -1,1 +1,14 @@
+name: Variables
 
+on: workflow_dispatch
+
+env:
+  MY_NAME: Jan
+  MY_CITY: Ropczyce
+
+jobs:
+  show:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print variables
+        run: echo "Mam na imię Anna mieszkam w Rzeszow"
