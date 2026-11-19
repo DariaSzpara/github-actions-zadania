@@ -1,0 +1,17 @@
+name: Job order
+
+on: push
+
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First job
+        run: echo "Jestem pierwszy"
+
+  second:
+    needs: first
+    runs-on: ubuntu-latest
+    steps:
+      - name: Second job
+        run: echo "Jestem drugi"
