@@ -10,4 +10,4 @@ jobs:
         run: echo "Zaraz będzie błąd"
 
       - name: Second step
-        run: exit 1
+        run: exit 0
