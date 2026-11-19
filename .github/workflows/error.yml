@@ -1,0 +1,13 @@
+name: Error test
+
+on: workflow_dispatch
+
+jobs:
+  error:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First step
+        run: echo "Zaraz będzie błąd"
+
+      - name: Second step
+        run: exit 1
