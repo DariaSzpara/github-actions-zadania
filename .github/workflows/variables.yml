@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print variables
-        run: echo "Mam na imię Anna mieszkam w Rzeszow"
+        run: echo "Mam na imię $MY_NAME mieszkam w $MY_CITY"
