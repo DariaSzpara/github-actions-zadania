@@ -20,3 +20,15 @@ def best_grade(grades):
     return max(grades)
 
 print(best_grade([1,1,2,4,5,3,2,2,1,1]))
+
+
+def grade_to_word(grade):
+    if grade == 5:
+        return "Very good"
+    elif grade == 4:
+        return "Good"
+    elif grade == 3:
+        return "Satisfactory"
+    else:
+        return "Fail"
+
