@@ -19,8 +19,8 @@ def test_empty_list():
     assert best_grade([]) is None
 
 def test_grade_to_word():
-    assert grade_to_word(5) == "Very good"
+    assert grade_to_word(5) == "very good"
 
 
 def test_grade_to_word_fail():
-    assert grade_to_word(2) == "Fail"
+    assert grade_to_word(2) == "fail"
