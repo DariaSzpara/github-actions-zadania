@@ -25,11 +25,11 @@ print(best_grade([1,1,2,4,5,3,2,2,1,1]))
 def grade_to_word(grade):
     # Convert numeric grade to a word
     if grade == 5:
-        return "Very good"
+        return "very good"
     elif grade == 4:
-        return "Good"
+        return "good"
     elif grade == 3:
-        return "Satisfactory"
+        return "satisfactory"
     else:
-        return "Fail"
+        return "fail"
 
