@@ -5,7 +5,7 @@ def average(grades):
 
 
 def is_passed(grades):
-    if average(grades) >= 4.0:
+    if average(grades) >= 3.0:
         return True
     else:
         return False
