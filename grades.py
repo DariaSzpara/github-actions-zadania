@@ -12,3 +12,11 @@ def is_passed(grades):
 
 print(average([4,5,3]))
 print(is_passed([4,5,3]))
+
+
+def best_grade(grades):
+    if grades == []:
+        return None
+    return max(grades)
+
+print(best_grade([1,1,2,4,5,3,2,2,1,1]))
