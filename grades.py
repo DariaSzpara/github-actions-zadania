@@ -1,7 +1,7 @@
 def average(grades):
     if len(grades) == 0:
         return 0
-    return round(sum(grades)/(len(grades)+1),2)
+    return round(sum(grades)/len(grades),2)
 
 
 def is_passed(grades):
