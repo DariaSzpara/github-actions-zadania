@@ -1,4 +1,4 @@
-from grades import average, is_passed, best_grade
+from grades import average, is_passed, best_grade, grade_to_word
 
 def test_average():
     assert average([4,5,3]) == 4.0
@@ -17,3 +17,10 @@ def test_best_grade():
 
 def test_empty_list():
     assert best_grade([]) is None
+
+def test_grade_to_word():
+    assert grade_to_word(5) == "Very good"
+
+
+def test_grade_to_word_fail():
+    assert grade_to_word(2) == "Fail"
