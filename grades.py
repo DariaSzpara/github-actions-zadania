@@ -1,3 +1,5 @@
+import os
+
 
 def average(grades):
     if len(grades) == 0:
