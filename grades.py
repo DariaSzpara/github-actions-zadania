@@ -1,5 +1,3 @@
-import os
-
 def average(grades):
     if len(grades) == 0:
         return 0
