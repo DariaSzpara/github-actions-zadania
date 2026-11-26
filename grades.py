@@ -32,4 +32,7 @@ def grade_to_word(grade):
         return "satisfactory"
     else:
         return "fail"
+    
+def has_one(grades):
+    return 1 in grades
 
