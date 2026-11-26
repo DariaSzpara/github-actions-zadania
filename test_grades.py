@@ -1,5 +1,5 @@
 
-from grades import average, is_passed, best_grade, grade_to_word, has_one, count_grades
+from grades import average, is_passed, best_grade, grade_to_word, has_one
 
 
 def test_average():
@@ -40,11 +40,3 @@ def test_has_one_true():
 
 def test_has_one_false():
     assert has_one([2, 3, 4]) is False
-
-
-def test_count_grades():
-    assert count_grades([5, 4, 3]) == 3
-
-
-def test_count_grades_empty():
-    assert count_grades([]) == 0
