@@ -1,5 +1,3 @@
-import math
-
 def average(grades):
     if len(grades) == 0:
         return 0
@@ -7,7 +5,7 @@ def average(grades):
 
 
 def is_passed(grades):
-    if average(grades) >= 5.0:
+    if average(grades) >= 3.0:
         return True
     else:
         return False
