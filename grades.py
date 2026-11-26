@@ -1,3 +1,4 @@
+
 def average(grades):
     if len(grades) == 0:
         return 0
@@ -9,7 +10,7 @@ def is_passed(grades):
         return True
     else:
         return False
-        
+
 
 def best_grade(grades):
     if grades == []:
@@ -31,4 +32,3 @@ def grade_to_word(grade):
 
 def has_one(grades):
     return 1 in grades
-
