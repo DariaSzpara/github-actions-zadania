@@ -1,4 +1,4 @@
-from grades import average, is_passed, best_grade, grade_to_word
+from grades import average, is_passed, best_grade, grade_to_word, has_one
 
 def test_average():
     assert average([4,5,3]) == 4.0
@@ -24,3 +24,9 @@ def test_grade_to_word():
 
 def test_grade_to_word_fail():
     assert grade_to_word(2) == "fail"
+
+def test_has_one_true():
+    assert has_one([1,2,3]) is True
+
+def test_has_one_false():
+    assert has_one([2,3,4]) is False
