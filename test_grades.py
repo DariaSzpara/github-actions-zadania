@@ -39,7 +39,7 @@ def test_has_one_true():
 
 
 def test_has_one_false():
-    assert has_one([2,3,4]) is False
+    assert has_one([2, 3, 4]) is False
 
 def test_average_wrong():
     assert average([2, 4]) == 3
