@@ -1,5 +1,5 @@
 
-from grades import average, is_passed, best_grade, grade_to_word, has_one
+from grades import average, is_passed, best_grade, grade_to_word, has_one, count_grades
 
 
 def test_average():
