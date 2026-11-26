@@ -31,3 +31,7 @@ def grade_to_word(grade):
 
 def has_one(grades):
     return 1 in grades
+
+
+def count_grades(grades):
+    return len(grades)
