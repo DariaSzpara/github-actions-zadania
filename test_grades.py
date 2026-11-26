@@ -1,3 +1,4 @@
+
 from grades import average, is_passed, best_grade, grade_to_word, has_one
 
 
@@ -10,11 +11,11 @@ def test_average_empty():
 
 
 def test_is_passed():
-    assert is_passed([4, 3]) == True
+    assert is_passed([4, 3]) is True
 
 
 def test_is_not_passed():
-    assert is_passed([2, 3, 2]) == False
+    assert is_passed([2, 3, 2]) is False
 
 
 def test_best_grade():
